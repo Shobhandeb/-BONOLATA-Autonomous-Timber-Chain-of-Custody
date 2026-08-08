@@ -27,7 +27,7 @@
 
 **Bonolota** is an intelligent digital platform designed to improve the **traceability, authenticity, security, and safety of timber transportation** from its point of origin to its final destination.
 
-<img width="1866" height="905" alt="image" src="https://github.com/user-attachments/assets/d858424d-812b-478e-a1cc-493db7647a81" />
+
 
 
 The platform combines:
@@ -1187,7 +1187,7 @@ CHAIN VERIFIED
 ---
 
 # 🖥️ Major Dashboard Components
-
+<img width="1866" height="905" alt="image" src="https://github.com/user-attachments/assets/d858424d-812b-478e-a1cc-493db7647a81" />
 The Bonolota dashboard is organized around several operational panels.
 
 ### 🌲 Timber Intelligence
