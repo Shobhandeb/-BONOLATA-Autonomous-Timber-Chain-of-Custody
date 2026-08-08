@@ -64,7 +64,7 @@ Bonolota transforms traditional timber logistics into a **digitally auditable an
 9. [AI Driver Safety Monitor](#-ai-driver-safety-monitor)
 10. [Cryptographic Chain of Custody](#-cryptographic-chain-of-custody)
 11. [Smart Logistics & Route Monitoring](#-smart-logistics--route-monitoring)
-12. [Riya AI Assistant](#-riya-ai-assistant)
+12. [Charulata AI Assistant](#-Charulata-ai-assistant)
 13. [Dashboard & User Experience](#-dashboard--user-experience)
 14. [Technology Stack](#️-technology-stack)
 15. [Project Architecture](#-project-architecture)
@@ -288,7 +288,7 @@ Bonolota follows a modular architecture designed around **AI inference, backend 
                          │ Dashboard • Maps         │
                          │ Ledger • Alerts          │
                          │ AI Detection • Safety    │
-                         │ Riya Assistant            │
+                         │ Charulata Assistant            │
                          └──────────────────────────┘
 ```
 
@@ -617,7 +617,7 @@ The system can also be extended to detect unusual waiting times and other transp
 
 **Charulata** is the conversational assistant integrated into Bonolota.
 
-Instead of forcing an operator to manually navigate through every dashboard section, Riya can act as a natural-language interface to the system.
+Instead of forcing an operator to manually navigate through every dashboard section, Charulata can act as a natural-language interface to the system.
 
 ### Example Interaction
 
@@ -803,7 +803,7 @@ Bonolota/
 │   │   └── other API routers
 │   │
 │   ├── chatbot/
-│   │   └── Riya AI assistant logic
+│   │   └── Charulata AI assistant logic
 │   │
 │   └── tree_model.pth
 │       └── Trained PyTorch model weights
@@ -825,7 +825,7 @@ Bonolota/
 │   │   │   └── Dashboard API and UI logic
 │   │   │
 │   │   ├── chatbot.js
-│   │   │   └── Riya assistant integration
+│   │   │   └── Charulata assistant integration
 │   │   │
 │   │   └── driver-safety.js
 │   │       └── MediaPipe and webcam processing
@@ -1239,7 +1239,7 @@ Displays:
 * Safety status
 * Alerts
 
-### 🤖 Riya
+### 🤖 Charulata
 
 Provides:
 
@@ -1345,7 +1345,7 @@ Bonolota is designed with future expansion in mind.
 * [x] Interactive dashboard
 * [x] Route visualization
 * [x] Driver safety monitoring
-* [x] Riya AI assistant
+* [x] Charulata AI assistant
 
 ---
 
@@ -1477,7 +1477,7 @@ It combines several domains into a single intelligent ecosystem:
 | 🔐 Data integrity       | SHA-256 hash chaining     |
 | 🚨 Anomaly awareness    | Rule-based monitoring     |
 | 👁️ Driver safety       | MediaPipe computer vision |
-| 🤖 Operator interaction | Riya AI Assistant         |
+| 🤖 Operator interaction | Charulata AI Assistant         |
 | 📊 Data visibility      | Centralized dashboard     |
 
 This integration is what makes Bonolota a **multi-domain intelligent logistics platform** rather than a conventional CRUD-based shipment application.
