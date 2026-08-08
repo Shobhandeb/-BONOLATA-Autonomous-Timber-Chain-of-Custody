@@ -1,4 +1,4 @@
-# 🌿 BONOLATA
+<img width="1849" height="892" alt="image" src="https://github.com/user-attachments/assets/55c80266-53fe-47cd-95e4-a493c99a5244" /># 🌿 BONOLATA
 
 ### Autonomous Timber Chain of Custody, AI Verification & Intelligent Logistics Platform
 
@@ -24,7 +24,11 @@
 
 ## 🌲 Overview
 
-**TimberTrust** is an intelligent digital platform designed to improve the **traceability, authenticity, security, and safety of timber transportation** from its point of origin to its final destination.
+
+**Bonolota** is an intelligent digital platform designed to improve the **traceability, authenticity, security, and safety of timber transportation** from its point of origin to its final destination.
+
+<img width="1866" height="905" alt="image" src="https://github.com/user-attachments/assets/d858424d-812b-478e-a1cc-493db7647a81" />
+
 
 The platform combines:
 
@@ -37,11 +41,12 @@ The platform combines:
 * 🔐 **Tamper-evident event verification**
 * 📊 **Centralized operational dashboard**
 
+
 The core idea is simple:
 
 > **Every timber movement should be traceable, every important event should be verifiable, and every transportation stage should be safer.**
 
-TimberTrust transforms traditional timber logistics into a **digitally auditable and AI-assisted supply-chain ecosystem**.
+Bonolota transforms traditional timber logistics into a **digitally auditable and AI-assisted supply-chain ecosystem**.
 
 ---
 
@@ -95,7 +100,7 @@ During this journey, several problems can occur:
 * Lack of centralized monitoring
 * Difficulty auditing historical events
 
-**TimberTrust** addresses these challenges by creating a unified digital platform where timber identity, transportation events, security information, and driver safety can be monitored from a single interface.
+**Bonolota** addresses these challenges by creating a unified digital platform where timber identity, transportation events, security information, and driver safety can be monitored from a single interface.
 
 ---
 
@@ -131,7 +136,7 @@ This approach makes it difficult to answer critical questions such as:
 
 > Can the complete journey be reconstructed later?
 
-TimberTrust introduces a digitally connected workflow:
+Bonolota introduces a digitally connected workflow:
 
 ```text
 TIMBER ORIGIN
@@ -165,7 +170,8 @@ COMPLETE DIGITAL CHAIN OF CUSTODY
 
 # 💡 Our Solution
 
-TimberTrust combines **Computer Vision, Web Technologies, Cryptography, GIS, and AI-assisted interfaces** into one integrated platform.
+Bonolota combines **Computer Vision, Web Technologies, Cryptography, GIS, and AI-assisted interfaces** into one integrated platform.
+
 
 The system is divided into several logical layers:
 
@@ -186,40 +192,50 @@ The system is divided into several logical layers:
 ### 🌿 AI Tree Species Detection
 
 Identify the probable tree species from an uploaded image using a trained **ResNet18** deep-learning model.
+<img width="1472" height="534" alt="image" src="https://github.com/user-attachments/assets/1026f86f-45c6-48bb-92dc-bb37d001fddf" />
+
 
 ### 🔐 Cryptographic Chain of Custody
 
 Every important shipment event can be connected using **SHA-256 hashing** and a previous-hash relationship.
+<img width="1851" height="784" alt="image" src="https://github.com/user-attachments/assets/eef39aa3-4ddb-442f-9f1a-5abbabdaa0c3" />
 
 ### 🚛 Shipment Monitoring
 
 Track timber shipments and their associated transportation events.
+<img width="1848" height="627" alt="image" src="https://github.com/user-attachments/assets/7efa83b0-aa40-4262-88a8-70bff818cf4f" />
 
 ### 🗺️ Route Visualization
 
 Display transportation routes and shipment locations using interactive maps.
+<img width="1849" height="892" alt="image" src="https://github.com/user-attachments/assets/171debc1-7e1b-468c-9cf3-0d807dfeb972" />
 
 ### 🚨 Anomaly Awareness
 
 Identify suspicious transportation patterns such as unusual stops, excessive waiting, or route deviation.
+<img width="1930" height="893" alt="image" src="https://github.com/user-attachments/assets/e54892e6-ab5c-47a3-ab72-af4fa4963fc2" />
+
 
 ### 👁️ Driver Drowsiness Detection
 
 Use computer vision and facial landmarks to identify prolonged eye closure patterns associated with possible drowsiness.
+<img width="1831" height="798" alt="image" src="https://github.com/user-attachments/assets/395ff6e2-6da0-445d-9889-2810f91f87e4" />
 
-### 🤖 Riya AI Assistant
+### 🤖 Charulata AI Assistant
 
-Interact with the TimberTrust dashboard through a natural-language assistant.
+Interact with the Bonolota dashboard through a natural-language assistant.
+<img width="331" height="547" alt="image" src="https://github.com/user-attachments/assets/df2974f2-a046-4226-8337-80d1a893afd9" />
 
 ### 📊 Centralized Dashboard
 
 Bring shipment status, AI results, ledger information, alerts, maps, and safety information into one interface.
 
 ---
+<img width="1865" height="902" alt="image" src="https://github.com/user-attachments/assets/d2c7fef1-6f71-4c8c-a078-94cf5a4fc8a0" />
 
 # 🏗️ System Architecture
 
-TimberTrust follows a modular architecture designed around **AI inference, backend APIs, data integrity, and frontend visualization**.
+Bonolota follows a modular architecture designed around **AI inference, backend APIs, data integrity, and frontend visualization**.
 
 ```text
                          ┌──────────────────────────┐
@@ -266,7 +282,7 @@ TimberTrust follows a modular architecture designed around **AI inference, backe
                                      │
                                      ▼
                          ┌──────────────────────────┐
-                         │     TIMBERTRUST UI       │
+                         │     Bonolota UI       │
                          │                          │
                          │ Dashboard • Maps         │
                          │ Ledger • Alerts          │
@@ -279,7 +295,7 @@ TimberTrust follows a modular architecture designed around **AI inference, backe
 
 # 🔄 End-to-End Data Flow
 
-A typical TimberTrust workflow can be represented as:
+A typical Bonolota workflow can be represented as:
 
 ```text
 1. Timber Identified
@@ -316,10 +332,12 @@ This produces a complete digital history of the shipment journey.
 ---
 
 # 🌿 AI Tree Species Detection
+<img width="1634" height="306" alt="image" src="https://github.com/user-attachments/assets/2bb94bca-ae0d-4c20-b19e-4cb2d2e7bea9" />
+
 
 ## ResNet18 Computer Vision Module
 
-TimberTrust incorporates a custom-trained **ResNet18 convolutional neural network** to identify tree species from images.
+Bonolota incorporates a custom-trained **ResNet18 convolutional neural network** to identify tree species from images.
 
 The model is designed to provide an additional layer of verification at the point of timber identification.
 
@@ -391,9 +409,9 @@ This makes it suitable for an application where lightweight local inference is d
 
 # 👁️ AI Driver Safety Monitor
 
-Transportation safety is another major component of TimberTrust.
+Transportation safety is another major component of Bonolota.
 
-Long-distance transportation can expose drivers to fatigue and reduced attention. TimberTrust therefore includes a browser-based computer-vision module that monitors facial landmarks and eye-related movement patterns.
+Long-distance transportation can expose drivers to fatigue and reduced attention. Bonolota therefore includes a browser-based computer-vision module that monitors facial landmarks and eye-related movement patterns.
 
 ## MediaPipe Face Landmark Pipeline
 
@@ -432,6 +450,7 @@ Drowsiness Warning
 * Temporal threshold logic
 
 ### EAR Concept
+<img width="677" height="231" alt="image" src="https://github.com/user-attachments/assets/c34e0e6d-21b0-4da7-a2f9-4ab43baf61be" />
 
 The **Eye Aspect Ratio (EAR)** is calculated using selected eye landmarks.
 
@@ -443,7 +462,7 @@ EAR = ────────────────────────�
              Horizontal Eye Distance
 ```
 
-Instead of relying on a single frame, TimberTrust uses temporal logic so that a short blink does not automatically become a drowsiness alert.
+Instead of relying on a single frame, Bonolota uses temporal logic so that a short blink does not automatically become a drowsiness alert.
 
 ### Safety Workflow
 
@@ -470,10 +489,11 @@ Temporal Threshold Check
 ---
 
 # ⛓️ Cryptographic Chain of Custody
+<img width="738" height="396" alt="image" src="https://github.com/user-attachments/assets/93c9c4ec-b4d3-43d7-a4cd-43369b0ea34f" />
 
 ## Tamper-Evident Event Ledger
 
-TimberTrust uses cryptographic hashing to create a linked sequence of shipment events.
+Bonolota uses cryptographic hashing to create a linked sequence of shipment events.
 
 Rather than treating each event as an isolated record, the system can associate each event with the hash of the previous event.
 
@@ -523,10 +543,12 @@ Current Hash
 ```
 
 If historical event data is changed, the resulting hash can change as well, providing a mechanism to detect unauthorized modification.
+<img width="298" height="242" alt="image" src="https://github.com/user-attachments/assets/f70fe0d9-ddfc-4b9b-b91a-10752cb5d035" />
+
 
 ### Important Design Principle
 
-TimberTrust's ledger is best described as a:
+Bonolota's ledger is best described as a:
 
 > **Cryptographically linked, tamper-evident event ledger**
 
@@ -538,7 +560,9 @@ This architecture provides the integrity benefits needed for the project while k
 
 # 🛰️ Smart Logistics & Route Monitoring
 
-TimberTrust provides a centralized logistics view for monitoring timber transportation.
+Bonolota provides a centralized logistics view for monitoring timber transportation.
+<img width="389" height="399" alt="image" src="https://github.com/user-attachments/assets/63947399-462b-419d-82f6-b2d6167ffeee" />
+<img width="1631" height="435" alt="image" src="https://github.com/user-attachments/assets/1350e200-21aa-46b3-91ca-a246fedde928" />
 
 The dashboard can visualize:
 
@@ -551,7 +575,14 @@ The dashboard can visualize:
 * 🔐 Chain-of-custody events
 
 ## Route Monitoring Concept
+<img width="490" height="204" alt="image" src="https://github.com/user-attachments/assets/1093f593-9a00-4af6-a607-5b99913ec3ce" />
+<img width="1669" height="860" alt="image" src="https://github.com/user-attachments/assets/5157efc9-5cc2-4aaa-b5ee-ec614810bb45" />
+<img width="1851" height="888" alt="image" src="https://github.com/user-attachments/assets/a25783c2-daac-4c1d-be31-c71806403892" />
 
+Our logistics module does not rely on continuous real-time GPS tracking.
+Instead, Bonolota uses a custom stop and route-deviation detection system to monitor shipment movement.
+The system records defined checkpoints, detects unusual stops, excessive waiting, and unauthorized deviations from the expected journey.
+These events are visualized on the dashboard and can trigger alerts for potential security or logistics issues.
 ```text
 Expected Route
       │
@@ -579,11 +610,11 @@ The system can also be extended to detect unusual waiting times and other transp
 
 ---
 
-# 🤖 Riya AI Assistant
+# 🤖 Charulata AI Assistant
 
 ## Intelligent Dashboard Assistant
 
-**Riya** is the conversational assistant integrated into TimberTrust.
+**Charulata** is the conversational assistant integrated into Bonolota.
 
 Instead of forcing an operator to manually navigate through every dashboard section, Riya can act as a natural-language interface to the system.
 
@@ -595,7 +626,7 @@ Operator:
 
              ↓
 
-          Riya AI
+          Charulata AI
 
              ↓
 
@@ -622,7 +653,7 @@ The assistant is designed to make the platform more accessible to non-technical 
 
 # 📊 Dashboard & User Experience
 
-TimberTrust is not designed merely as a backend API.
+Bonolota is not designed merely as a backend API.
 
 A major goal of the project is to create a **visual command center** where complex supply-chain information can be understood quickly.
 
@@ -648,7 +679,7 @@ Displays webcam-based safety monitoring.
 
 Highlights important system events.
 
-### 🤖 Riya Assistant
+### 🤖 Charulata Assistant
 
 Provides conversational access to platform functionality.
 
@@ -656,7 +687,7 @@ Provides conversational access to platform functionality.
 
 # 🎨 UI Design Philosophy
 
-The TimberTrust interface follows a modern operational-dashboard approach.
+The Bonolota interface follows a modern operational-dashboard approach.
 
 The design focuses on:
 
@@ -710,7 +741,7 @@ This makes the system suitable for demonstrations, presentations, and practical 
 
 # 🧩 Project Architecture
 
-TimberTrust follows a modular software architecture:
+Bonolota follows a modular software architecture:
 
 ```text
 ┌───────────────────────────────────────────────┐
@@ -750,7 +781,7 @@ TimberTrust follows a modular software architecture:
 # 📂 Directory Structure
 
 ```text
-TimberTrust/
+Bonolota/
 │
 ├── backend/
 │   │
@@ -779,7 +810,7 @@ TimberTrust/
 ├── frontend/
 │   │
 │   ├── dashboard.html
-│   │   └── Main TimberTrust command center
+│   │   └── Main Bonolota command center
 │   │
 │   ├── driver-safety.html
 │   │   └── AI driver safety interface
@@ -820,7 +851,7 @@ TimberTrust/
 
 # 🔌 API Overview
 
-TimberTrust exposes backend functionality through REST APIs.
+Bonolota exposes backend functionality through REST APIs.
 
 A conceptual API structure is:
 
@@ -902,11 +933,12 @@ F1 Score   : 0.8889
 
 # 🔐 Security & Data Integrity
 
-TimberTrust incorporates several mechanisms to improve system integrity.
+Bonolota incorporates several mechanisms to improve system integrity.
 
 ## 1. SHA-256 Hashing
 
 Important events can be hashed using SHA-256.
+<img width="945" height="660" alt="image" src="https://github.com/user-attachments/assets/15161467-a382-4ba0-949c-0fe2a2192fe8" />
 
 ## 2. Previous Hash Linking
 
@@ -965,7 +997,7 @@ For AI inference, PyTorch and the required model dependencies must be installed.
 
 ```bash
 git clone <YOUR_REPOSITORY_URL>
-cd TimberTrust
+cd Bonolota
 ```
 
 ---
@@ -1034,7 +1066,7 @@ FastAPI's interactive documentation is available at:
 http://127.0.0.1:8000/docs
 ```
 
-The TimberTrust frontend can then be opened through the project's configured frontend serving mechanism.
+The Bonolota frontend can then be opened through the project's configured frontend serving mechanism.
 
 ---
 
@@ -1156,7 +1188,7 @@ CHAIN VERIFIED
 
 # 🖥️ Major Dashboard Components
 
-The TimberTrust dashboard is organized around several operational panels.
+The Bonolota dashboard is organized around several operational panels.
 
 ### 🌲 Timber Intelligence
 
@@ -1219,7 +1251,7 @@ Provides:
 
 # 🧑‍💻 Project Team & Mentorship
 
-TimberTrust was developed as an academic/internship-oriented project focusing on the intersection of:
+Bonolota was developed as an academic/internship-oriented project focusing on the intersection of:
 
 * Artificial Intelligence
 * Computer Vision
@@ -1247,7 +1279,7 @@ IEEE Project Intern
 
 # 🎓 Research & Academic Value
 
-TimberTrust demonstrates how multiple technologies can be integrated into a single real-world system.
+Bonolota demonstrates how multiple technologies can be integrated into a single real-world system.
 
 ### Artificial Intelligence
 
@@ -1277,7 +1309,7 @@ The dashboard transforms complex backend information into a visual interface des
 
 # 📈 Project Impact
 
-TimberTrust aims to contribute to a more transparent timber transportation ecosystem by connecting **physical goods with verifiable digital events**.
+Bonolota aims to contribute to a more transparent timber transportation ecosystem by connecting **physical goods with verifiable digital events**.
 
 The system can help demonstrate:
 
@@ -1286,7 +1318,7 @@ The system can help demonstrate:
                          ▲
                          │
                          │
-SAFETY ◄────────── TIMBERTRUST ──────────► TRACEABILITY
+SAFETY ◄────────── Bonolota ──────────► TRACEABILITY
                          │
                          │
                          ▼
@@ -1301,7 +1333,7 @@ The platform therefore treats timber transportation not simply as a logistics pr
 
 # 🛣️ Future Roadmap
 
-TimberTrust is designed with future expansion in mind.
+Bonolota is designed with future expansion in mind.
 
 ## Phase 1 — Current Prototype
 
@@ -1363,7 +1395,7 @@ Complete Supply-Chain Visibility
 
 # ⚠️ Current Limitations
 
-As an academic prototype, TimberTrust has several practical limitations.
+As an academic prototype, Bonolota has several practical limitations.
 
 ### AI Accuracy
 
@@ -1395,7 +1427,7 @@ Species information retrieved from external knowledge services may depend on net
 
 # 🔮 Long-Term Vision
 
-The long-term vision of TimberTrust is to evolve from a project prototype into a comprehensive **AI-assisted timber traceability platform**.
+The long-term vision of Bonolota is to evolve from a project prototype into a comprehensive **AI-assisted timber traceability platform**.
 
 A future version could connect:
 
@@ -1430,13 +1462,13 @@ The ultimate goal is to make every major stage of timber movement **observable, 
 
 ---
 
-# 🏆 Why TimberTrust?
+# 🏆 Why Bonolota?
 
-TimberTrust is not just a timber tracking application.
+Bonolota is not just a timber tracking application.
 
 It combines several domains into a single intelligent ecosystem:
 
-| Challenge               | TimberTrust Approach      |
+| Challenge               | Bonolota Approach      |
 | ----------------------- | ------------------------- |
 | 🌿 Species verification | ResNet18 AI               |
 | 📦 Shipment tracking    | Digital logistics records |
@@ -1447,7 +1479,7 @@ It combines several domains into a single intelligent ecosystem:
 | 🤖 Operator interaction | Riya AI Assistant         |
 | 📊 Data visibility      | Centralized dashboard     |
 
-This integration is what makes TimberTrust a **multi-domain intelligent logistics platform** rather than a conventional CRUD-based shipment application.
+This integration is what makes Bonolota a **multi-domain intelligent logistics platform** rather than a conventional CRUD-based shipment application.
 
 ---
 
@@ -1507,6 +1539,6 @@ Before using the project commercially, verify the licensing requirements of the 
 
 ## ⭐ Project Concept in One Line
 
-> **TimberTrust is an AI-powered, cryptographically verifiable timber supply-chain platform that connects species identification, shipment tracking, transportation monitoring, driver safety, and digital chain-of-custody into one intelligent system.**
+> **Bonolota is an AI-powered, cryptographically verifiable timber supply-chain platform that connects species identification, shipment tracking, transportation monitoring, driver safety, and digital chain-of-custody into one intelligent system.**
 
 ---
