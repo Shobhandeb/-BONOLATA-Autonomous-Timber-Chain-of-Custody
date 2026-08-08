@@ -1,4 +1,5 @@
-<img width="1849" height="892" alt="image" src="https://github.com/user-attachments/assets/55c80266-53fe-47cd-95e4-a493c99a5244" /># 🌿 BONOLATA
+<img width="728" height="158" alt="image" src="https://github.com/user-attachments/assets/7a3b07df-da94-49a1-9266-670fa83ef474" />
+
 
 ### Autonomous Timber Chain of Custody, AI Verification & Intelligent Logistics Platform
 
