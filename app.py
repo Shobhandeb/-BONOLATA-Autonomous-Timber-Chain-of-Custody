@@ -1,31 +1,47 @@
+import os
+
+# ZeroGPU must be imported before torch/ML libraries.
+import spaces
 import gradio as gr
+import uvicorn
 
 from backend.main import app as bonolata_app
+from backend.services.tree_detector import predict_tree_species
 
-def project_info():
-    return """BONOLATA — Autonomous Timber Chain of Custody
+def space_status():
+    return (
+        "BONOLATA is running.\n\n"
+        "Full dashboard: /dashboard.html\n"
+        "API documentation: /docs\n"
+        "Tree AI endpoint: /api/tree/detect\n\n"
+        "The local Ollama chatbot is disabled unless an external Ollama-compatible "
+        "service is configured."
+    )
 
-The project contains the full FastAPI dashboard and REST API.
+with gr.Blocks(title="BONOLATA — Timber Intelligence Platform") as demo:
+    gr.Markdown("# 🌲 BONOLATA")
+    gr.Markdown(
+        "Autonomous Timber Chain of Custody, AI Verification & Intelligent Logistics Platform"
+    )
+    status = gr.Textbox(label="Deployment status", value=space_status(), interactive=False)
+    gr.Markdown(
+        "Open **/dashboard.html** on this Space for the original BONOLATA web dashboard."
+    )
 
-Core modules:
-• Timber and shipment management
-• SHA-256 chain-of-custody verification
-• Tree species AI detection
-• Route and checkpoint monitoring
-• Driver safety monitoring
-• RAG-based assistant
-
-Hosted note:
-The chatbot's local Ollama dependency is not available automatically in Hugging Face Spaces and requires an external Ollama-compatible service.
-"""
-
-demo = gr.Interface(
-    fn=project_info,
-    inputs=[],
-    outputs=gr.Textbox(label="BONOLATA"),
-    title="BONOLATA — Timber Intelligence Platform",
-    description="AI-powered timber traceability, verification, logistics and safety platform."
+# Keep the original FastAPI application at the root so its existing frontend/API URLs remain usable.
+bonolata_app = gr.mount_gradio_app(
+    bonolata_app,
+    demo,
+    path="/gradio",
+    ssr_mode=False,
 )
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=7860)
+    # Required for custom FastAPI + Gradio mounting on Spaces.
+    try:
+        if hasattr(spaces, "zero") and hasattr(spaces.zero, "startup"):
+            spaces.zero.startup()
+    except Exception as exc:
+        print(f"[ZeroGPU] startup hook warning: {exc}")
+
+    uvicorn.run(bonolata_app, host="0.0.0.0", port=7860)
