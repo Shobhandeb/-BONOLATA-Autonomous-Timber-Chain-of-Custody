@@ -1,3 +1,4 @@
+import spaces
 import torch
 import torch.nn.functional as F
 from torchvision import transforms, models
@@ -56,6 +57,7 @@ def load_tree_model():
         logging.error(f"Failed to load tree model: {e}")
         model = None
 
+@spaces.GPU(duration=120)
 def predict_tree_species(image_bytes: bytes):
     if model is None:
         return {"success": False, "error": "AI Model is currently offline or missing."}
