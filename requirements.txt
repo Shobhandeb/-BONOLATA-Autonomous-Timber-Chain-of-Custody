@@ -5,8 +5,10 @@ python-multipart
 qrcode
 pillow
 numpy
-torch
+torch>=2.8.0
 torchvision
 faiss-cpu
 sentence-transformers
 httpx
+gradio==5.50.0
+spaces
