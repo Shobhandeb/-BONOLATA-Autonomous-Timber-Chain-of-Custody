@@ -1,3 +1,20 @@
+---
+title: BONOLATA — Timber Intelligence Platform
+emoji: 🌲
+colorFrom: green
+colorTo: blue
+sdk: gradio
+sdk_version: "5.49.1"
+python_version: "3.10"
+app_file: app.py
+---
+
+# BONOLATA
+
+AI-powered autonomous timber chain-of-custody, verification, logistics and safety platform.
+
+This Space is configured for the Gradio/ZeroGPU deployment path.
+
 <img width="728" height="158" alt="image" src="https://github.com/user-attachments/assets/7a3b07df-da94-49a1-9266-670fa83ef474" />
 
 
