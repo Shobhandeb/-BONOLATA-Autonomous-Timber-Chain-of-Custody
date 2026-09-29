@@ -1,7 +1,12 @@
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
+python-multipart
 qrcode
 pillow
+numpy
+torch
+torchvision
 faiss-cpu
 sentence-transformers
+httpx
